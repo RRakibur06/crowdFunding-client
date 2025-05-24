@@ -21,7 +21,7 @@ export default function ProjectDetails() {
     const [donationLoading, setDonationLoading] = useState(false);
     const [copied, setCopied] = useState(false);
 
-    const shareUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/projects/${id}`;
+    const shareUrl = `https://crowd-funding-client-ebd6.vercel.app/projects/${id}`;
 
     useEffect(() => {
         if (id) {
